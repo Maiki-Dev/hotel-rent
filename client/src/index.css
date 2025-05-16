@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb;
+  --color-secondary: #fbbf24;
+}
+
+*{
+  font-family: Roboto;
+}
+
+.font-ibm-plex {
+  font-family: 'IBM Plex Sans' !important;
+}
+
+.font-roboto {
+  font-family: 'Roboto' !important;
+}
