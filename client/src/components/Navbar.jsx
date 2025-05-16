@@ -41,12 +41,12 @@ const Navbar = () => {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      setIsScrolled(false);
+      setIsScrolled(true);
       return;
     } else {
-      setIsScrolled(true);
+      setIsScrolled(false);
     }
-    setIsScrolled((prev) => (location.pathname !== "/" ? true : prev));
+    setIsScrolled((prev) => (location.pathname !== "/" ? false : prev));
 
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);

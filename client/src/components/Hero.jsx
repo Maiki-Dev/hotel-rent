@@ -7,14 +7,13 @@ const Hero = () => {
       <p className="bg-[#00ff6e]/50 px-3.5 py-1 rounded-full mt-20">
         QHOTEL Веб сайтанд тавтай морилно уу!
       </p>
-      <h1 className="font-roboto text-2xl md:text-5xl md:text-[60px] md:leading-[60px] font-bold md:font-extrabold max-w-xl mt-6">
+      <h1 className="font-imb-plex text-2xl md:text-5xl md:text-[56px] md:leading-[56px] font-bold md:font-extrabold max-w-xl mt-4">
         Өөрийнхөө зочид буудлыг хайж олоорой
       </h1>
-      <p className="max-w-150 mt-4 text-sm md:text-base">
-        Энд бүхэл шинэ зочид буудлуудын мэдээлэл, үнэлгээ, зочид буудлын
-        зургийг олох боломжтой.Бид танд хамгийн сайн зочид буудлыг олоход туслах болно.
+      <p className="max-w-130 mt-2 text-sm md:text-base">
+        Энд бүхэл шинэ зочид буудлуудын мэдээлэл, үнэлгээ, зочид буудлын зургийг
+        олох боломжтой.Бид танд хамгийн сайн зочид буудлыг олоход туслах болно.
       </p>
-
 
       <form className="bg-white text-gray-500 rounded-lg px-6 py-4  flex flex-col mt-15 md:flex-row max-md:items-start gap-4 max-md:mx-auto">
         <div>
